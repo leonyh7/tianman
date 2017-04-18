@@ -1,0 +1,19 @@
+{
+  "name": "tianman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leonyh7/tianman.git",
+  "author": "leonyh7 <leo_nyh@sina.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8"
+  }
+}
