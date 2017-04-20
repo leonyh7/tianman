@@ -4,7 +4,13 @@ html, body {
 }
 body {
     font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    margin: 0;
 }
 a, img {
     -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
+header {
+    height: 1.28rem;
+    line-height: 1.28rem;
+    background-color: #2d2c34;
 }
