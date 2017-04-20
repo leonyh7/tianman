@@ -1,16 +1,79 @@
 html, body {
     -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
     user-select: none;
+    height: 100%;
 }
 body {
     font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a, img {
     -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
 }
+h4,
+h6,
+p {
+    margin: 0;
+}
 header {
-    height: 1.28rem;
-    line-height: 1.28rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
     background-color: #2d2c34;
+    display: flex;
+}
+header .logo,
+header .nav-item{
+    flex: auto;
+}
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8ad2ff;
+    font-size: .34rem;
+}
+header .logo img {
+    height: .89rem;
+    margin-right: .16rem;
+}
+header .nav-item {
+    display: block;
+    font-size: .28rem;
+    color: #fff;
+    text-align: center;
+}
+header .nav-item.active {
+    color: #21a8fb;
+}
+main {
+    flex: 1 1 0%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+footer {
+    height: .98rem;
+    line-height: .98rem;
+    font-size: .28rem;
+    color: #fff;
+    border-top: 1px #929292 solid;
+    background-color: #333;
+    box-sizing: border-box;
+    display: flex;
+}
+footer > * {
+    flex: auto;
+    text-align: center;
+}
+footer a img {
+    height: .58rem;
+    margin-top: .2rem;
+}
+footer .footer-title {
+    color: #22a9fc;
 }

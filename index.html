@@ -1,18 +1,139 @@
 <!DOCTYPE html>
 <html lang="zh-ch">
-    <head>
-        <title>客户圈-首页</title>
-        <meta charset="UTF-8">
-        <link href="./assets/css/style.css" rel="stylesheet">
-        <script src="./assets/js/flexible.js"></script>
-    </head>
-    <body>
-        <header>
 
-        </header>
-        <main></main>
+<head>
+    <title>客户圈-首页</title>
+    <meta charset="UTF-8">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="./assets/js/flexible.js"></script>
+    <style>
+        body{ background-color: #f7f7f7; }
+        .banner{ font-size: 0; }
+        .banner img{ width: 100%; }
+        .capability { padding: .5rem; }
+        .text-center { text-align: center; }
+        .main-title { font-size: .45rem; color: #21a8fb; margin-bottom: .2rem; }
+        .sub-title { font-size:.24rem; color: #adadad; margin-bottom: .3rem; }
+        .thumbnail { display: flex; background-color: #fff; padding: .36rem .3rem; margin-bottom: .3rem; }
+        .thumbnai-image { font-size: 0; }
+        .thumbnail img { width: .96rem; margin-right: .26rem; }
+        .capability-list .thumbnail:last-child { margin-bottom: 0; }
+        .thumbnail .content h4 { font-size: 28px; color: #181a21;  }
+        .thumbnail .content p { font-size: 22px; line-height: .4rem; color: #b8b8b8; }
+        .advantage { background-color: #fff; padding: .5rem .85rem; }
+        .advantage .row { display: flex; margin-bottom: .32rem; }
+        .advantage .row:last-child { margin-bottom: 0; }
+        .advantage .row .col { flex: auto; text-align: center; background-color: #f9f9f9; margin-right: .5rem; }
+        .advantage .row .col:last-child { margin-right: 0; }
+        .advantage .row .col p { font-size: .22rem; color: #333; }
+        .img-screen { padding: 0 .15rem; }
+        .img-screen img { width: 100%; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/image/logo.png" alt="logo">
+            <span>客户圈</span>
+        </div>
+        <a href="" class="nav-item active">首页</a>
+        <a href="" class="nav-item">城市合伙人</a>
+        <a href="" class="nav-item">注册</a>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="./assets/image/banner.png" alt="">
+        </div>
+        <div class="capability">
+            <h4 class="main-title text-center">我们能解决哪些问题？</h4>
+            <h6 class="sub-title text-center">革新微信营销，公众号衰落后的营销触达</h6>
+            <div class="capability-list">
+                <div class="thumbnail">
+                    <div class="thumbnai-image">
+                        <img src="./assets/image/thumnail1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>顾客太少！生意太差！</h4>
+                        <p>通过用户画像，精准获取客户，让您的店铺顾客盈门。</p>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnai-image">
+                        <img src="./assets/image/thumnail2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>营销成本高，效果有限</h4>
+                        <p>通过精准营销和深度场景化营销，有效降低80%营销成本，提高转化。</p>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnai-image">
+                        <img src="./assets/image/thumnail3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>营销能力弱，效率低</h4>
+                        <p>通过微信消息及卡包入口，将营销活动精准及时到达顾客手中。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advantage">
+            <h4 class="main-title text-center">客户圈代金券优势</h4>
+            <h6 class="sub-title text-center">代金券是一种没有成本，企业可发行的货币</h6>
+            <div class="advantage-list">
+                <div class="row">
+                    <div class="col">
+                        <img src="./assets/image/ad1.png" alt="">
+                        <p>低成本营销</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/image/ad2.png" alt="">
+                        <p>海量微信ID</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/image/ad3.png" alt="">
+                        <p>数据精准</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="./assets/image/ad4.png" alt="">
+                        <p>个性化推送</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/image/ad5.png" alt="">
+                        <p>转化效果高</p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/image/ad6.png" alt="">
+                        <p>数据透明</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/image/bg.png" alt="">
+        <div class="suit">
+            <h4 class="main-title text-center">适用的行业</h4>
+            <h6 class="sub-title text-center">线下实体门店线上商家</h6>
+            <div class="img-screen">
+                <img src="./assets/image/suit.png" alt="">
+            </div>
+        </div>
+        <div class="friendship">
+            <h4 class="main-title text-center">大客户案例</h4>
+            <h6 class="sub-title text-center">以下展示仅为部分大客户</h6>
+            <div class="img-screen">
+                <img src="./assets/image/friendship.png" alt="">
+            </div>
+        </div>
         <footer>
-            
+            <div class="footer-title">长沙天漫</div>
+            <div class="tip">全国服务热线</div>
+            <div class="tel">0731-8305 7517</div>
+            <a href="tel://0731-83057517" class="tel"><img src="./assets/image/tel.png" alt="tel"></a>
         </footer>
-    </body>
+    </main>
+</body>
+
 </html>
