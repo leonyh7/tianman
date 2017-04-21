@@ -56,8 +56,12 @@ header .logo {
     font-size: .34rem;
 }
 header .logo img {
+    display: block;
     height: .89rem;
     margin-right: .16rem;
+}
+header .logo span {
+    display: block;
 }
 header .nav-item {
     display: block;
