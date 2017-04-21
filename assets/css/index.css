@@ -1,0 +1,100 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.banner {
+  font-size: 0;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.capability {
+  padding: .5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-title {
+  font-size: .45rem;
+  color: #21a8fb;
+  margin-bottom: .2rem;
+}
+
+.sub-title {
+  font-size: .24rem;
+  color: #adadad;
+  margin-bottom: .3rem;
+}
+
+.thumbnail {
+  display: flex;
+  background-color: #fff;
+  padding: .36rem .3rem;
+  margin-bottom: .3rem;
+}
+
+.thumbnai-image {
+  font-size: 0;
+}
+
+.thumbnail img {
+  width: .96rem;
+  margin-right: .26rem;
+}
+
+.capability-list .thumbnail:last-child {
+  margin-bottom: 0;
+}
+
+.thumbnail .content h4 {
+  font-size: 28px;
+  color: #181a21;
+}
+
+.thumbnail .content p {
+  font-size: 22px;
+  line-height: .4rem;
+  color: #b8b8b8;
+}
+
+.advantage {
+  background-color: #fff;
+  padding: .5rem .85rem;
+}
+
+.advantage .row {
+  display: flex;
+  margin-bottom: .32rem;
+}
+
+.advantage .row:last-child {
+  margin-bottom: 0;
+}
+
+.advantage .row .col {
+  flex: auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-right: .5rem;
+}
+
+.advantage .row .col:last-child {
+  margin-right: 0;
+}
+
+.advantage .row .col p {
+  font-size: .22rem;
+  color: #333;
+}
+
+.img-screen {
+  padding: 0 .15rem;
+}
+
+.img-screen img {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "tianman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonyh7/tianman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonyh7/tianman/issues"
+  },
+  "homepage": "https://github.com/leonyh7/tianman#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}
